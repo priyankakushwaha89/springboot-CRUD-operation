@@ -22,7 +22,7 @@ public class StudentController
 	@RequestMapping("/test")
 	public String test()
 	{
-		return "this is from test";
+		return "hello you are hacked";
 	}
 	// To create data
 	@RequestMapping("/savedata")
